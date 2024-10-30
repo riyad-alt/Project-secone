@@ -3,9 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>site logo</title>
+    <title>Tea House</title>
+
+    <!--googl font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+
+<!--awesome-->
+<script src="https://kit.fontawesome.com/8fdbc364eb.js" crossorigin="anonymous"></script>
+
+<!--tailwend css-->
+<script src="https://cdn.tailwindcss.com"></script>
+
+<script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script>
+
 </head>
 <body>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium fugit veritatis, quos fugiat fuga perspiciatis, minus cupiditate quidem maxime distinctio dolores natus aliquam sapiente quaerat tenetur quam, perferendis reprehenderit dicta!</p>
+<!--main contan-->
+<main class="max-w-screen-xl max-auto px-16 lg:px-28">
+    <!--header-->
+<header class="flex pt-10 bt-10">
+    <!--text containe-->
+    <div>
+    <h1 class="text-5xl md:text-7xl">It's good <br>
+        tea time at The <br> Tea House</h1>
+        <br>
+    <p class="text-gray-500 w-3/4">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
+    <br>
+    <button class="bg-gradient-to-r from-orange-500 to-red-500 px-5 py-3 rounded-lg text-white font-bold">Explore More <i class="fa-solid fa-arrow-right -rotate-45"></i></button>
+    </div>
+    <!--img- conation-->
+    <div class="relative">
+        <!--img-->
+    <div>
+<img class="w-full" src="images/banner.png" alt="">
+    </div>
+    <!--crad-->
+    <div class="absolute flex items-center bg-white shadow-lg px-2 py-2 md:px-10 lg:py-4 rounded-lg top-28 md:top-80 md:left-28 lg:left-30">
+       <!-- icon-->
+        <div><i class="fa-solid fa-star text-amber-500 text-2xl"></i></div>
+        <!--text-->
+        <div class="ml-2">
+    <h2 class="lg:text-2xl font-bold">5.00</h2>
+    <p class="text-gray-500">Trust Pilot Ratings</p>
+</div>
+    </div>
+    </div>
+    
+    </header>
+</main>
+
 </body>
 </html>
